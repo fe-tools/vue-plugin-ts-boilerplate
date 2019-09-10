@@ -4,8 +4,6 @@ function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'defau
 
 var Vue = _interopDefault(require('vue'));
 
-var a = 111;
-console.log(a);
 var script = Vue.extend({
     name: 'component'
 });

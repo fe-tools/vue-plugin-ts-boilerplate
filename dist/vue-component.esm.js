@@ -1,7 +1,5 @@
 import Vue from 'vue';
 
-var a = 111;
-console.log(a);
 var script = Vue.extend({
     name: 'component'
 });

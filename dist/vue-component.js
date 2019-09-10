@@ -6,8 +6,6 @@
 
   Vue = Vue && Vue.hasOwnProperty('default') ? Vue['default'] : Vue;
 
-  var a = 111;
-  console.log(a);
   var script = Vue.extend({
       name: 'component'
   });
